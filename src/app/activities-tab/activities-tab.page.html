@@ -12,8 +12,16 @@
       <ion-title size="large">Activities</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <ion-content color="light">
+  <ion-content>
+    <ion-grid style="margin-left: 16px; margin-right: 16px;">
+      <ion-row class="ion-align-items-center" >
+        <ion-col style="padding: 0">
+          <h1><strong>My tasks</strong></h1>
+          <p style="margin: 0">You have 3 tasks left</p>
+        </ion-col>
+          <ion-button style="height: 50px">New task</ion-button>
+      </ion-row>
+    </ion-grid>
     <app-to-do-item />
   </ion-content>
 </ion-content>
