@@ -1,0 +1,7 @@
+{
+  "name": "health-hunter",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
