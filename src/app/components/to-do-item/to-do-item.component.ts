@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-to-do-item',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./to-do-item.component.scss'],
 })
 export class ToDoItemComponent  implements OnInit {
+  @Input() todoTitle!: string;
 
   constructor() { }
 
